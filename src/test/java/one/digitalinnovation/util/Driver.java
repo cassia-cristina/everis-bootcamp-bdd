@@ -1,4 +1,4 @@
-package com.digitalinnovation.util;
+package one.digitalinnovation.util;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +16,6 @@ public class Driver {
     public Driver() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        wait = new WebDriverWait(driver, 10);
         driver.manage().window().maximize();
     }
 
@@ -29,6 +28,7 @@ public class Driver {
     }
 
     public static void visibilityOf(WebElement element) {
+        wait = new WebDriverWait(getDriver(), 10);
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 

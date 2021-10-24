@@ -1,11 +1,10 @@
-package com.digitalinnovation.pages;
+package one.digitalinnovation.pages;
 
-import com.digitalinnovation.maps.HomeMap;
-import com.digitalinnovation.util.Driver;
+import one.digitalinnovation.maps.HomeMap;
+import one.digitalinnovation.util.Driver;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
-
     HomeMap homeMap;
 
     public HomePage() {
@@ -13,8 +12,8 @@ public class HomePage {
         PageFactory.initElements(Driver.getDriver(),homeMap);
     }
 
-    public void pesquisarProduto(String produto){
-        homeMap.inputBusca.sendKeys(produto);
+    public void pesquisarProduto(String nomeProduto){
+        homeMap.inputBusca.sendKeys(nomeProduto);
         homeMap.btnLupaBuscar.click();
     }
 
