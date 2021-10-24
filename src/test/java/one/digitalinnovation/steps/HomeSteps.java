@@ -1,7 +1,7 @@
-package com.everis.steps;
+package com.digitalinnovation.steps;
 
-import com.everis.pages.HomePage;
-import com.everis.util.Driver;
+import com.digitalinnovation.pages.HomePage;
+import com.digitalinnovation.util.Driver;
 import io.cucumber.java.Before;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.E;

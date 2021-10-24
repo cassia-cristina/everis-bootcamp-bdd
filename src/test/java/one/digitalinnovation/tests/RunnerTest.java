@@ -1,4 +1,4 @@
-package com.everis.tests;
+package com.digitalinnovation.tests;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         tags = "@test",
-        glue = "com/everis/steps",
+        glue = "com.everis.steps",
         plugin = {"json:target/reports/CucumberReports.json", "pretty"},
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )

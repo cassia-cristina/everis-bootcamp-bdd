@@ -1,7 +1,7 @@
-package com.everis.steps;
+package com.digitalinnovation.steps;
 
-import com.everis.pages.CarrinhoPage;
-import com.everis.util.Driver;
+import com.digitalinnovation.pages.CarrinhoPage;
+import com.digitalinnovation.util.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.pt.Entao;
 import org.junit.Assert;

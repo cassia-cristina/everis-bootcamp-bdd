@@ -1,6 +1,6 @@
-package com.everis.steps;
+package com.digitalinnovation.steps;
 
-import com.everis.pages.ResultadoPesquisaPage;
+import com.digitalinnovation.pages.ResultadoPesquisaPage;
 import io.cucumber.java.pt.Quando;
 
 public class ResultadoPesquisaSteps {

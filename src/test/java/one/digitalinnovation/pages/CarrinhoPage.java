@@ -1,7 +1,7 @@
-package com.everis.pages;
+package com.digitalinnovation.pages;
 
-import com.everis.maps.CarrinhoMap;
-import com.everis.util.Driver;
+import com.digitalinnovation.maps.CarrinhoMap;
+import com.digitalinnovation.util.Driver;
 import org.openqa.selenium.support.PageFactory;
 
 public class CarrinhoPage {

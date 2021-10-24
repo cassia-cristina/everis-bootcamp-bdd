@@ -1,7 +1,7 @@
-package com.everis.pages;
+package com.digitalinnovation.pages;
 
-import com.everis.maps.HomeMap;
-import com.everis.util.Driver;
+import com.digitalinnovation.maps.HomeMap;
+import com.digitalinnovation.util.Driver;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {

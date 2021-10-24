@@ -1,4 +1,4 @@
-package com.everis.util;
+package com.digitalinnovation.util;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
